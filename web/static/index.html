@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>LuckyJet Demo</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div id="app">
+    <h1>LuckyJet Demo</h1>
+    <div id="digest" class="muted">Digest: —</div>
+    <div id="mult">1.00x</div>
+
+    <div class="controls">
+      <input id="bet" type="number" min="1" value="10" />
+      <button id="betBtn">Bet & Join</button>
+      <button id="cashout" disabled>Cash out</button>
+    </div>
+
+    <div id="info" class="muted"></div>
+    <div id="log" class="log"></div>
+
+    <div class="provably">
+      <h3>Provably fair</h3>
+      <div id="pf">Перед началом раунда публикуется <b>digest</b> (HMAC). После окончания раскрывается <b>server_seed</b>.</div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
