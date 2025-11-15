@@ -1,0 +1,10 @@
+body { font-family: Arial, Helvetica, sans-serif; background: #0b1020; color: #eaf0ff; display:flex; align-items:center; justify-content:center; min-height:100vh; margin:0; }
+#app { width:360px; background:#0f1724; padding:20px; border-radius:12px; box-shadow: 0 6px 30px rgba(0,0,0,0.6); }
+h1 { margin:0 0 10px 0; font-size:20px; text-align:center; }
+#mult { font-size:48px; text-align:center; padding:18px 0; background: linear-gradient(90deg, rgba(255,255,255,0.03), transparent); border-radius:8px; margin-bottom:12px; }
+.controls { display:flex; gap:8px; justify-content:center; align-items:center; margin-bottom:8px; }
+.controls input { width:100px; padding:8px; border-radius:6px; border: none; }
+.controls button { padding:8px 12px; border-radius:6px; border:none; cursor:pointer; }
+.muted { color:#9aa6c0; font-size:12px; margin-bottom:8px; }
+.log { margin-top:12px; font-size:13px; color:#cfe8ff; max-height:160px; overflow:auto; }
+.provably { margin-top:12px; font-size:13px; color:#9aa6c0; }
