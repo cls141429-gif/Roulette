@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+.vscode/
+node_modules/
+rounds.json
+users.json
